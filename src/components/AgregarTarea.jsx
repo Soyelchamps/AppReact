@@ -2,8 +2,11 @@ import { useState } from "react"
 
 const AgregarTarea = ({ onAdd }) =>{
     
+
+
     const [texto, setTexto] = useState ('')
     const [fecha, setFecha] = useState ('')
+
     const [terminado, setTerminado] = useState (false)
 
 
